@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>StartupCommands</groupId>
     <artifactId>StartupCommands</artifactId>
-    <version>0.0.7</version>
+    <version>0.0.8</version>
     <name>StartupCommands</name>
     <url>https://github.com/mattgd/StartupCommands</url>
     <description>A Minecraft server plugin that automatically runs commands on startup.</description>
@@ -16,7 +16,9 @@
         <main.class>me.mattgd.startupcommands.StartupCommands</main.class>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <powermock.version>2.0.0</powermock.version>
-        <spigot.version>1.16.5-R0.1-SNAPSHOT</spigot.version>
+        <spigot.version>1.18.2-R0.1-SNAPSHOT</spigot.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
